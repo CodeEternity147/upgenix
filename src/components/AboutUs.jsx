@@ -108,7 +108,7 @@ const AboutUs = () => {
       </div>
 
       {/* Header Section */}
-      <section className="relative z-10 py-12 md:py-20 flex items-center justify-center w-full px-2 sm:px-4 lg:px-8">
+      <section className="relative z-10 py-6 md:py-10 flex items-center justify-center w-full px-2 sm:px-4 lg:px-8">
         <div className="max-w-7xl mx-auto w-full">
           <div className="text-center mb-8 md:mb-16">
             <div className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-1000">
@@ -140,24 +140,7 @@ const AboutUs = () => {
             </div>
           </div>
 
-          {/* Floating Stats Cards */}
-          <div className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-1000 delay-300">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 max-w-5xl mx-auto">
-              {statsData.map((stat, index) => (
-                <div key={index} className="group">
-                  <div className={`bg-gradient-to-r ${stat.color} rounded-2xl lg:rounded-3xl p-4 md:p-6 lg:p-8 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:rotate-2 cursor-pointer`}>
-                    <div className="text-center text-white">
-                      <div className="text-2xl md:text-3xl lg:text-4xl mb-2 group-hover:scale-110 transition-transform duration-300">
-                        {stat.icon}
-                      </div>
-                      <div className="text-xl md:text-2xl lg:text-3xl font-bold mb-1">{stat.number}</div>
-                      <div className="text-sm md:text-base opacity-90">{stat.label}</div>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+         
         </div>
       </section>
 

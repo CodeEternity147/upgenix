@@ -137,7 +137,7 @@ const Medicy = () => {
             {/* Images Collage */}
             <div className="relative flex-1 h-96">
               {/* Main central image */}
-              <div className={`absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-52 h-52 sm:w-64 sm:h-64 rounded-full overflow-hidden border-4 border-white z-10 shadow-2xl transition-all duration-1000 delay-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-0 opacity-0'} hover:scale-105 hover:shadow-3xl`}>
+              <div className={`absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-56 h-56 sm:w-64 sm:h-64 rounded-full overflow-hidden border-4 border-white z-10 shadow-2xl transition-all duration-1000 delay-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-0 opacity-0'} hover:scale-105 hover:shadow-3xl`}>
                 <div className="absolute inset-0 bg-gradient-to-br from-green-100 to-blue-100 flex items-center justify-center">
                   <img 
                     src='https://plus.unsplash.com/premium_photo-1681843015470-5dec0470c64d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
